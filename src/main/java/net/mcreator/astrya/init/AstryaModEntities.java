@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.astrya.entity.ThunderBowEntity;
 import net.mcreator.astrya.entity.Mob1Entity;
 import net.mcreator.astrya.entity.MinimobEntity;
 import net.mcreator.astrya.AstryaMod;
@@ -29,6 +30,8 @@ public class AstryaModEntities {
 					.sized(1f, 1f));
 	public static final RegistryObject<EntityType<Mob1Entity>> BLUE_ZOMBIE = register("blue_zombie",
 			EntityType.Builder.<Mob1Entity>of(Mob1Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Mob1Entity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ThunderBowEntity>> THUNDER_BOW = register("projectile_thunder_bow",
+			EntityType.Builder.<ThunderBowEntity>of(ThunderBowEntity::new, MobCategory.MISC).setCustomClientFactory(ThunderBowEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

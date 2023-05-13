@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.astrya.item.ThunderBowItem;
 import net.mcreator.astrya.item.SteelSwordItem;
 import net.mcreator.astrya.item.SteelPickaxeItem;
 import net.mcreator.astrya.item.SteelItem;
@@ -30,9 +31,11 @@ import net.mcreator.astrya.item.RubiShovelItem;
 import net.mcreator.astrya.item.RubiPickaxeItem;
 import net.mcreator.astrya.item.RubiHoeItem;
 import net.mcreator.astrya.item.RubiAxeItem;
+import net.mcreator.astrya.item.RedAppleItem;
 import net.mcreator.astrya.item.MagicPowderItem;
 import net.mcreator.astrya.item.IronStickItem;
 import net.mcreator.astrya.item.IronBackpackItemItem;
+import net.mcreator.astrya.item.InfinitySoupItem;
 import net.mcreator.astrya.item.DiamondBackpackItem;
 import net.mcreator.astrya.item.BackpackItem;
 import net.mcreator.astrya.item.AstryWorldItem;
@@ -84,6 +87,9 @@ public class AstryaModItems {
 	public static final RegistryObject<Item> RUBI_SWORD = REGISTRY.register("rubi_sword", () -> new RubiSwordItem());
 	public static final RegistryObject<Item> RUBI_SHOVEL = REGISTRY.register("rubi_shovel", () -> new RubiShovelItem());
 	public static final RegistryObject<Item> RUBI_HOE = REGISTRY.register("rubi_hoe", () -> new RubiHoeItem());
+	public static final RegistryObject<Item> THUNDER_BOW = REGISTRY.register("thunder_bow", () -> new ThunderBowItem());
+	public static final RegistryObject<Item> INFINITY_SOUP = REGISTRY.register("infinity_soup", () -> new InfinitySoupItem());
+	public static final RegistryObject<Item> RED_APPLE = REGISTRY.register("red_apple", () -> new RedAppleItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

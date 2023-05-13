@@ -1383,6 +1383,103 @@
           }
         ]
       }
+    },
+    {
+      "name": "ThunderBowLorsqueLeProjectileToucheUneEntiteVivante",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_bow_lorsque_le_projectile_touche_une_entite_vivante",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/procedures/ThunderBowLorsqueLeProjectileToucheUneEntiteVivanteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThunderBow",
+      "type": "rangeditem",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_bow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/thunder_bow.json",
+          "src/main/java/net/mcreator/astrya/entity/ThunderBowEntity.java",
+          "src/main/java/net/mcreator/astrya/item/ThunderBowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "InfinitySoup",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinity_soup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/item/InfinitySoupItem.java",
+          "src/main/resources/assets/astrya/models/item/infinity_soup.json"
+        ]
+      }
+    },
+    {
+      "name": "RedApple",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/item/RedAppleItem.java",
+          "src/main/resources/assets/astrya/models/item/red_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "RedAppleLeJoueurTermineDutiliserLitem",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_apple_le_joueur_termine_dutiliser_litem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/procedures/RedAppleLeJoueurTermineDutiliserLitemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1404,7 +1501,10 @@
       "item.astrya.saphir_armor_leggings": "Saphir Leggings",
       "item.astrya.saphir_armor_chestplate": "Saphir Chestplate",
       "block.astrya.astry_wood_fence": "AstryWood Fence",
+      "item.astrya.red_apple": "Red Apple",
+      "item.astrya.thunder_bow": "Thunder Bow",
       "block.astrya.astry_wood_stairs": "AstryWood Stairs",
+      "item.astrya.infinity_soup": "Infinity Soup",
       "block.astrya.astry_wood_planks": "AstryWood Planks",
       "entity.astrya.blue_zombie": "BlueZombie",
       "item.astrya.steel_sword": "Steel Sword",
