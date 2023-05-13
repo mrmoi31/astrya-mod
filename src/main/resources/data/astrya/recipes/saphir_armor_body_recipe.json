@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "astrya:saphir"
+    },
+    "2": {
+      "item": "astrya:saphir"
+    },
+    "3": {
+      "item": "astrya:saphir"
+    },
+    "4": {
+      "item": "astrya:saphir"
+    },
+    "5": {
+      "item": "astrya:saphir"
+    },
+    "6": {
+      "item": "astrya:saphir"
+    },
+    "7": {
+      "item": "astrya:saphir"
+    },
+    "8": {
+      "item": "astrya:saphir"
+    }
+  },
+  "result": {
+    "item": "astrya:saphir_armor_chestplate",
+    "count": 1
+  }
+}

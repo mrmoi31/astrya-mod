@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "astrya:block/astry_world_portal_ew"
+    },
+    "axis=x": {
+      "model": "astrya:block/astry_world_portal_ns"
+    }
+  }
+}

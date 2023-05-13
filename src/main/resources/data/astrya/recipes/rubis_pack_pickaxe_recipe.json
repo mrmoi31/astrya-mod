@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "astrya:rubis"
+    },
+    "1": {
+      "item": "astrya:rubis"
+    },
+    "2": {
+      "item": "astrya:rubis"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "astrya:deleted_mod_element",
+    "count": 1
+  }
+}

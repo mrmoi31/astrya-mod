@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "astrya:astry_wood_planks"
+    },
+    "1": {
+      "item": "astrya:astry_wood_planks"
+    },
+    "2": {
+      "item": "astrya:astry_wood_planks"
+    }
+  },
+  "result": {
+    "item": "astrya:astry_wood_slab",
+    "count": 6
+  }
+}

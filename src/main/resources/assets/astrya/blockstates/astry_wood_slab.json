@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "astrya:block/astry_wood_slab"
+    },
+    "type=top": {
+      "model": "astrya:block/astry_wood_slab_top"
+    },
+    "type=double": {
+      "model": "astrya:block/astry_wood_slab_full"
+    }
+  }
+}

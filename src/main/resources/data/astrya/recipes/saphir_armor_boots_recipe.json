@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "astrya:saphir"
+    },
+    "2": {
+      "item": "astrya:saphir"
+    },
+    "3": {
+      "item": "astrya:saphir"
+    },
+    "5": {
+      "item": "astrya:saphir"
+    }
+  },
+  "result": {
+    "item": "astrya:saphir_armor_boots",
+    "count": 1
+  }
+}

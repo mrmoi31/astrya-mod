@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AstryWoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AstryWoodPlanks"
+      },
+      {
+        "value": "CUSTOM:AstryWoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AstryWoodPlanks"
+      },
+      {
+        "value": "CUSTOM:AstryWoodPlanks"
+      },
+      {
+        "value": "CUSTOM:AstryWoodPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AstryWoodStairs"
+    },
+    "name": "astry_wood_stairs_recipe",
+    "namespace": "mod"
+  }
+}

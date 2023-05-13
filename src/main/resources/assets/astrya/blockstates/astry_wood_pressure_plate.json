@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "astrya:block/astry_wood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "astrya:block/astry_wood_pressure_plate_down"
+    }
+  }
+}

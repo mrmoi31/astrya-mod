@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "astrya:blocks/astrywood_log_side",
+    "particle": "astrya:blocks/astrywood_log_side"
+  }
+}

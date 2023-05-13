@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:AstryWoodWood"
+      },
+      {
+        "value": "CUSTOM:AstryWoodLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "astrywood_log",
+    "namespace": "forge"
+  }
+}

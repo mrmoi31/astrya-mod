@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Astrya",
+    "icon": {
+      "value": "CUSTOM:Saphir"
+    },
+    "showSearch": true
+  }
+}

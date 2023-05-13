@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "astrya:rubis_block"
+    }
+  ],
+  "result": {
+    "item": "astrya:rubis",
+    "count": 9
+  }
+}

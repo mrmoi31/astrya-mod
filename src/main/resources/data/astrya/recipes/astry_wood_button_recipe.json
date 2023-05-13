@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "astrya:astry_wood_planks"
+    }
+  ],
+  "result": {
+    "item": "astrya:astry_wood_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "astrya:blocks/vinesblue",
+    "particle": "astrya:blocks/vinesblue"
+  }
+}

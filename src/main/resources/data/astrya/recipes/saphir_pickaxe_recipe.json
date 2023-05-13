@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "astrya:saphir"
+    },
+    "1": {
+      "item": "astrya:saphir"
+    },
+    "2": {
+      "item": "astrya:saphir"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "astrya:saphir_pickaxe",
+    "count": 1
+  }
+}

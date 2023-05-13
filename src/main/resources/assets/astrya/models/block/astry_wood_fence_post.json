@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "astrya:blocks/astrywood_planks",
+    "particle": "astrya:blocks/astrywood_planks"
+  }
+}

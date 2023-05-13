@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "astrya:blocks/rubis_ore",
+    "particle": "astrya:blocks/rubis_ore"
+  }
+}

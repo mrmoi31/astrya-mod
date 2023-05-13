@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "astrya:blocks/saphir_ore",
+    "particle": "astrya:blocks/saphir_ore"
+  }
+}

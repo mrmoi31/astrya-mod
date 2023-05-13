@@ -1,0 +1,1432 @@
+{
+  "mod_elements": [
+    {
+      "name": "Saphir",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/saphir.json",
+          "src/main/java/net/mcreator/astrya/item/SaphirItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SaphirOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/saphir_ore.json",
+          "src/main/java/net/mcreator/astrya/block/SaphirOreBlock.java",
+          "src/main/resources/assets/astrya/models/block/saphir_ore.json",
+          "src/main/resources/assets/astrya/blockstates/saphir_ore.json",
+          "src/main/java/net/mcreator/astrya/world/features/ores/SaphirOreFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "SaphirBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/block/SaphirBlockBlock.java",
+          "src/main/resources/assets/astrya/models/item/saphir_block.json",
+          "src/main/resources/assets/astrya/models/block/saphir_block.json",
+          "src/main/resources/assets/astrya/blockstates/saphir_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SaphirOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/saphir_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SaphirBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/saphir_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SaphirOreSmelting",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/saphir_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "SaphirPickaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/saphir_pickaxe.json",
+          "src/main/java/net/mcreator/astrya/item/SaphirPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SaphirAxe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/saphir_axe.json",
+          "src/main/java/net/mcreator/astrya/item/SaphirAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SaphirSword",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/saphir_sword.json",
+          "src/main/java/net/mcreator/astrya/item/SaphirSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SaphirShovel",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/saphir_shovel.json",
+          "src/main/java/net/mcreator/astrya/item/SaphirShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SaphirHoe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/saphir_hoe.json",
+          "src/main/java/net/mcreator/astrya/item/SaphirHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SaphirPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/saphir_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SaphirAxeRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/saphir_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SaphirSwordRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/saphir_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SaphirShovelRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/saphir_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SaphirHoeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/saphir_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SaphirArmor",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/astrya/models/item/saphir_armor_boots.json",
+          "src/main/resources/assets/astrya/models/item/saphir_armor_helmet.json",
+          "src/main/resources/assets/astrya/models/item/saphir_armor_chestplate.json",
+          "src/main/resources/assets/astrya/models/item/saphir_armor_leggings.json",
+          "src/main/java/net/mcreator/astrya/item/SaphirArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SaphirArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/saphir_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SaphirArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/saphir_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SaphirArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/saphir_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SaphirArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/saphir_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SaphirSwordRightClickedInAir",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_sword_right_clicked_in_air",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/procedures/SaphirSwordRightClickedInAirProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Astrya",
+      "type": "tab",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astrya",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AstryWorld",
+      "type": "dimension",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_world",
+      "metadata": {
+        "ep": true,
+        "files": [
+          "src/main/resources/assets/astrya/models/block/astry_world_portal_ew.json",
+          "src/main/java/net/mcreator/astrya/world/teleporter/AstryWorldPortalShape.java",
+          "src/main/resources/data/astrya/dimension_type/astry_world.json",
+          "src/main/java/net/mcreator/astrya/world/dimension/AstryWorldDimension.java",
+          "src/main/java/net/mcreator/astrya/item/AstryWorldItem.java",
+          "src/main/resources/data/astrya/dimension/astry_world.json",
+          "src/main/resources/assets/astrya/models/block/astry_world_portal_ns.json",
+          "src/main/resources/assets/astrya/models/item/astry_world.json",
+          "src/main/java/net/mcreator/astrya/block/AstryWorldPortalBlock.java",
+          "src/main/resources/assets/astrya/blockstates/astry_world_portal.json",
+          "src/main/java/net/mcreator/astrya/world/teleporter/AstryWorldTeleporter.java"
+        ]
+      }
+    },
+    {
+      "name": "Minimob",
+      "type": "livingentity",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minimob",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/entity/MinimobEntity.java",
+          "src/main/resources/assets/astrya/models/item/minimob_spawn_egg.json",
+          "src/main/java/net/mcreator/astrya/client/renderer/MinimobRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodWood",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/astry_wood_wood.json",
+          "src/main/java/net/mcreator/astrya/block/AstryWoodWoodBlock.java",
+          "src/main/resources/assets/astrya/models/block/astry_wood_wood.json",
+          "src/main/resources/assets/astrya/blockstates/astry_wood_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodLog",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/block/AstryWoodLogBlock.java",
+          "src/main/resources/assets/astrya/models/block/astry_wood_log.json",
+          "src/main/resources/assets/astrya/models/item/astry_wood_log.json",
+          "src/main/resources/assets/astrya/blockstates/astry_wood_log.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodPlanks",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/block/astry_wood_planks.json",
+          "src/main/resources/assets/astrya/models/item/astry_wood_planks.json",
+          "src/main/resources/assets/astrya/blockstates/astry_wood_planks.json",
+          "src/main/java/net/mcreator/astrya/block/AstryWoodPlanksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodStairs",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/blockstates/astry_wood_stairs.json",
+          "src/main/java/net/mcreator/astrya/block/AstryWoodStairsBlock.java",
+          "src/main/resources/assets/astrya/models/block/astry_wood_stairs_inner.json",
+          "src/main/resources/assets/astrya/models/item/astry_wood_stairs.json",
+          "src/main/resources/assets/astrya/models/block/astry_wood_stairs_outer.json",
+          "src/main/resources/assets/astrya/models/block/astry_wood_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodSlab",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/block/astry_wood_slab.json",
+          "src/main/java/net/mcreator/astrya/block/AstryWoodSlabBlock.java",
+          "src/main/resources/assets/astrya/models/block/astry_wood_slab_top.json",
+          "src/main/resources/assets/astrya/models/item/astry_wood_slab.json",
+          "src/main/resources/assets/astrya/blockstates/astry_wood_slab.json",
+          "src/main/resources/assets/astrya/models/block/astry_wood_slab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodFence",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/blockstates/astry_wood_fence.json",
+          "src/main/resources/assets/astrya/models/block/astry_wood_fence.json",
+          "src/main/resources/assets/astrya/models/block/astry_wood_fence_inventory.json",
+          "src/main/resources/assets/astrya/models/block/astry_wood_fence_post.json",
+          "src/main/resources/assets/astrya/models/item/astry_wood_fence.json",
+          "src/main/java/net/mcreator/astrya/block/AstryWoodFenceBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodFenceGate",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/block/astry_wood_fence_gate_open.json",
+          "src/main/resources/assets/astrya/models/item/astry_wood_fence_gate.json",
+          "src/main/resources/assets/astrya/models/block/astry_wood_fence_gate_wall_open.json",
+          "src/main/resources/assets/astrya/models/block/astry_wood_fence_gate_wall.json",
+          "src/main/resources/assets/astrya/blockstates/astry_wood_fence_gate.json",
+          "src/main/java/net/mcreator/astrya/block/AstryWoodFenceGateBlock.java",
+          "src/main/resources/assets/astrya/models/block/astry_wood_fence_gate.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodPressurePlate",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/block/AstryWoodPressurePlateBlock.java",
+          "src/main/resources/assets/astrya/models/block/astry_wood_pressure_plate.json",
+          "src/main/resources/assets/astrya/blockstates/astry_wood_pressure_plate.json",
+          "src/main/resources/assets/astrya/models/item/astry_wood_pressure_plate.json",
+          "src/main/resources/assets/astrya/models/block/astry_wood_pressure_plate_down.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodButton",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/astry_wood_button.json",
+          "src/main/java/net/mcreator/astrya/block/AstryWoodButtonBlock.java",
+          "src/main/resources/assets/astrya/models/block/astry_wood_button_pressed.json",
+          "src/main/resources/assets/astrya/models/block/astry_wood_button.json",
+          "src/main/resources/assets/astrya/blockstates/astry_wood_button.json",
+          "src/main/resources/assets/astrya/models/block/astry_wood_button_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodItemsTag",
+      "type": "tag",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/astrywood_log.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/astry_wood_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/astry_wood_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/astry_wood_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/astry_wood_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/astry_wood_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/astry_wood_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/astry_wood_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/astry_wood_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryWoodStickRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_wood_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/astry_wood_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryVines",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_vines",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/astry_vines.json",
+          "src/main/java/net/mcreator/astrya/block/AstryVinesBlock.java",
+          "src/main/resources/assets/astrya/models/block/astry_vines.json",
+          "src/main/resources/assets/astrya/blockstates/astry_vines.json"
+        ]
+      }
+    },
+    {
+      "name": "AstryBiome",
+      "type": "biome",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astry_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/world/features/treedecorators/AstryBiomeLeaveDecorator.java",
+          "src/main/java/net/mcreator/astrya/world/features/treedecorators/AstryBiomeTrunkDecorator.java",
+          "src/main/java/net/mcreator/astrya/world/biome/AstryBiomeBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "AstryaLeaves",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astrya_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/world/features/ores/AstryaLeavesFeature.java",
+          "src/main/java/net/mcreator/astrya/block/AstryaLeavesBlock.java",
+          "src/main/resources/assets/astrya/models/block/astrya_leaves.json",
+          "src/main/resources/assets/astrya/blockstates/astrya_leaves.json",
+          "src/main/resources/assets/astrya/models/item/astrya_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenFire",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_fire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/block/GreenFireBlock.java",
+          "src/main/resources/assets/astrya/models/item/green_fire.json",
+          "src/main/resources/assets/astrya/blockstates/green_fire.json",
+          "src/main/resources/assets/astrya/models/block/green_fire.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintsaphirRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintsaphir_right_clicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/procedures/FlintsaphirRightClickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mob1",
+      "type": "livingentity",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_zombie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/entity/Mob1Entity.java",
+          "src/main/java/net/mcreator/astrya/client/renderer/Mob1Renderer.java",
+          "src/main/resources/assets/astrya/models/item/blue_zombie_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelPickaxe",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/steel_pickaxe.json",
+          "src/main/java/net/mcreator/astrya/item/SteelPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelSword",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/item/SteelSwordItem.java",
+          "src/main/resources/assets/astrya/models/item/steel_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "Steel",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/item/SteelItem.java",
+          "src/main/resources/assets/astrya/models/item/steel.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicPowder",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_powder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/item/MagicPowderItem.java",
+          "src/main/resources/assets/astrya/models/item/magic_powder.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelCraft",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/steel_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicPowderCraft",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_powder_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/magic_powder_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "IronStick",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/item/IronStickItem.java",
+          "src/main/resources/assets/astrya/models/item/iron_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "IronStickCraft",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_stick_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/iron_stick_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelPickaxeCraft",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/steel_pickaxe_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelSwordCraft",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/steel_sword_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelSwordQuandUneEntiteVivanteEstFrappeeAvecLoutil",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword_quand_une_entite_vivante_est_frappee_avec_loutil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/procedures/SteelSwordQuandUneEntiteVivanteEstFrappeeAvecLoutilProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Test",
+      "type": "gui",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/client/gui/TestScreen.java",
+          "src/main/java/net/mcreator/astrya/world/inventory/TestMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Backpack",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/item/BackpackItem.java",
+          "src/main/java/net/mcreator/astrya/item/inventory/BackpackInventoryCapability.java",
+          "src/main/resources/assets/astrya/models/item/backpack.json"
+        ]
+      }
+    },
+    {
+      "name": "IronBackpack",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_backpack",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/iron_backpack_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "Test2",
+      "type": "gui",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/client/gui/Test2Screen.java",
+          "src/main/java/net/mcreator/astrya/world/inventory/Test2Menu.java"
+        ]
+      }
+    },
+    {
+      "name": "IronBackpackItem",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_backpack_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/item/inventory/IronBackpackItemInventoryCapability.java",
+          "src/main/resources/assets/astrya/models/item/iron_backpack_item.json",
+          "src/main/java/net/mcreator/astrya/item/IronBackpackItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldBackpackCraft",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_backpack_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/gold_backpack_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "Test3",
+      "type": "gui",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/world/inventory/Test3Menu.java",
+          "src/main/java/net/mcreator/astrya/client/gui/Test3Screen.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondBackpack",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_backpack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/item/inventory/DiamondBackpackInventoryCapability.java",
+          "src/main/resources/assets/astrya/models/item/diamond_backpack.json",
+          "src/main/java/net/mcreator/astrya/item/DiamondBackpackItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondBackpackCraft",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_backpack_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/diamond_backpack_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueFire",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_fire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/blockstates/blue_fire.json",
+          "src/main/resources/assets/astrya/models/item/blue_fire.json",
+          "src/main/resources/assets/astrya/models/block/blue_fire.json",
+          "src/main/java/net/mcreator/astrya/block/BlueFireBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Rubis",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubis",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/item/RubisItem.java",
+          "src/main/resources/assets/astrya/models/item/rubis.json"
+        ]
+      }
+    },
+    {
+      "name": "RubisOre",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubis_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/rubis_ore.json",
+          "src/main/resources/assets/astrya/blockstates/rubis_ore.json",
+          "src/main/resources/assets/astrya/models/block/rubis_ore.json",
+          "src/main/java/net/mcreator/astrya/world/features/ores/RubisOreFeature.java",
+          "src/main/java/net/mcreator/astrya/block/RubisOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RubisBlock",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubis_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/rubis_block.json",
+          "src/main/java/net/mcreator/astrya/block/RubisBlockBlock.java",
+          "src/main/resources/assets/astrya/blockstates/rubis_block.json",
+          "src/main/resources/assets/astrya/models/block/rubis_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RubisOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubis_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/rubis_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubisBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubis_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/rubis_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubisOreSmelting",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubis_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/rubis_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubis_packPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubis_pack_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/rubis_pack_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubis_packAxeRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubis_pack_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/rubis_pack_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubis_packSwordRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubis_pack_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/rubis_pack_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubis_packShovelRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubis_pack_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/rubis_pack_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubis_packHoeRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubis_pack_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/rubis_pack_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubiPickaxe",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubi_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/rubi_pickaxe.json",
+          "src/main/java/net/mcreator/astrya/item/RubiPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubiAxe",
+      "type": "tool",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubi_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/rubi_axe.json",
+          "src/main/java/net/mcreator/astrya/item/RubiAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubiSword",
+      "type": "tool",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubi_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/item/RubiSwordItem.java",
+          "src/main/resources/assets/astrya/models/item/rubi_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "RubiShovel",
+      "type": "tool",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubi_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/item/RubiShovelItem.java",
+          "src/main/resources/assets/astrya/models/item/rubi_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "RubiHoe",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubi_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astrya/models/item/rubi_hoe.json",
+          "src/main/java/net/mcreator/astrya/item/RubiHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubiPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubi_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/rubi_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubiAxeRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubi_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/rubi_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubiSwordRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubi_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/rubi_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubiShovelRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubi_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/rubi_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubiHoeRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubi_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astrya/recipes/rubi_hoe_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.astrya.backpack": "GoldBackpack",
+      "item.astrya.steel_pickaxe": "Steel Pickaxe",
+      "item.astrya.saphir_armor_boots": "Saphir Boots",
+      "item.astrya.saphir_hoe": "Saphir Hoe",
+      "block.astrya.astry_wood_wood": "AstryWood Wood",
+      "item.astrya.rubi_shovel": "Rubis Shovel",
+      "item.astrya.astry_world": "Flintsaphir",
+      "item.astrya.blue_zombie_spawn_egg": "BlueZombie Spawn Egg",
+      "block.astrya.astry_wood_fence_gate": "AstryWood Fence Gate",
+      "item.astrya.saphir_sword": "Saphir Sword",
+      "item.astrya.iron_backpack_item": "Backpack",
+      "block.astrya.astry_wood_slab": "AstryWood Slab",
+      "item.astrya.saphir_armor_leggings": "Saphir Leggings",
+      "item.astrya.saphir_armor_chestplate": "Saphir Chestplate",
+      "block.astrya.astry_wood_fence": "AstryWood Fence",
+      "block.astrya.astry_wood_stairs": "AstryWood Stairs",
+      "block.astrya.astry_wood_planks": "AstryWood Planks",
+      "entity.astrya.blue_zombie": "BlueZombie",
+      "item.astrya.steel_sword": "Steel Sword",
+      "block.astrya.astry_wood_button": "AstryWood Button",
+      "item.astrya.rubi_hoe": "Rubis Hoe",
+      "item.astrya.saphir_shovel": "Saphir Shovel",
+      "item.astrya.rubi_pickaxe": "Rubis Pickaxe",
+      "biome.astrya.astry_biome": "Astry Biome",
+      "block.astrya.green_fire": "Green Fire",
+      "item.astrya.steel": "Magic Ingot",
+      "item.astrya.minimob_spawn_egg": "MiniSlime Spawn Egg",
+      "itemGroup.tabastrya": "Astrya",
+      "block.astrya.rubis_block": "Block of Rubis",
+      "block.astrya.astrya_leaves": "Astrya Leaves",
+      "item.astrya.iron_stick": "Iron Stick",
+      "item.astrya.rubi_sword": "Rubis Sword",
+      "block.astrya.saphir_ore": "Saphir Ore",
+      "item.astrya.saphir_axe": "Saphir Axe",
+      "item.astrya.diamond_backpack": "Backpack",
+      "block.astrya.astry_vines": "Astry Vines",
+      "block.astrya.astry_wood_pressure_plate": "AstryWood Pressure Plate",
+      "gui.astrya.test.label_backpack": "Backpack",
+      "item.astrya.magic_powder": "Magic Powder",
+      "item.astrya.rubi_axe": "Rubis Axe",
+      "item.astrya.rubis": "Rubis",
+      "block.astrya.rubis_ore": "Rubis Ore",
+      "item.astrya.saphir_pickaxe": "Saphir Pickaxe",
+      "entity.astrya.minimob": "MiniSlime",
+      "block.astrya.blue_fire": "Green Fire",
+      "item.astrya.saphir": "Saphir",
+      "gui.astrya.test_3.label_backpack": "Backpack",
+      "item.astrya.saphir_armor_helmet": "Saphir Helmet",
+      "block.astrya.astry_wood_log": "AstryWood Log",
+      "block.astrya.saphir_block": "Block of Saphir",
+      "gui.astrya.test_2.label_backpack": "Backpack"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "astrya",
+    "modName": "astrya",
+    "version": "1.0.0",
+    "author": "33611, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.astrya",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "astrya:saphir_ore",
+    "astrya:saphir_block",
+    "astrya:rubis_ore",
+    "astrya:rubis_block"
+  ]
+}

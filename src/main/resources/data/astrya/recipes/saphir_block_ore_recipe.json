@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "astrya:saphir_block"
+    }
+  ],
+  "result": {
+    "item": "astrya:saphir",
+    "count": 9
+  }
+}

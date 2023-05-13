@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "astrya:rubis"
+    },
+    {
+      "item": "astrya:rubis"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "astrya:deleted_mod_element",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "astrya:blocks/astrywood_log_top",
+    "up": "astrya:blocks/astrywood_log_top",
+    "north": "astrya:blocks/astrywood_log_side",
+    "east": "astrya:blocks/astrywood_log_side",
+    "south": "astrya:blocks/astrywood_log_side",
+    "west": "astrya:blocks/astrywood_log_side",
+    "particle": "astrya:blocks/astrywood_log_top"
+  }
+}

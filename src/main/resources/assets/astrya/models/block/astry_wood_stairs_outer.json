@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "astrya:blocks/astrywood_planks",
+    "top": "astrya:blocks/astrywood_planks",
+    "side": "astrya:blocks/astrywood_planks"
+  }
+}

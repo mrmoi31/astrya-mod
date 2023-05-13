@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:astrywood_log"
+    }
+  ],
+  "result": {
+    "item": "astrya:astry_wood_planks",
+    "count": 4
+  }
+}

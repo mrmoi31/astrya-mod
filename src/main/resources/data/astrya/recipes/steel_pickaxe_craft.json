@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "astrya:steel"
+    },
+    "1": {
+      "item": "astrya:steel"
+    },
+    "2": {
+      "item": "astrya:steel"
+    },
+    "4": {
+      "item": "astrya:iron_stick"
+    },
+    "7": {
+      "item": "astrya:iron_stick"
+    }
+  },
+  "result": {
+    "item": "astrya:steel_pickaxe",
+    "count": 1
+  }
+}
