@@ -917,7 +917,12 @@
         "files": [
           "src/main/java/net/mcreator/astrya/procedures/SteelSwordQuandUneEntiteVivanteEstFrappeeAvecLoutilProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     },
     {
@@ -1345,6 +1350,37 @@
       "metadata": {
         "files": [
           "src/main/resources/data/astrya/recipes/rubi_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelPickaxeQuandLeBlocEstDetruitAvecLoutil",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe_quand_le_bloc_est_detruit_avec_loutil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/astrya/procedures/SteelPickaxeQuandLeBlocEstDetruitAvecLoutilProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }

@@ -43,9 +43,7 @@ public class SteelSwordItem extends SwordItem {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		SteelSwordQuandUneEntiteVivanteEstFrappeeAvecLoutilProcedure.execute(
-
-		);
+		SteelSwordQuandUneEntiteVivanteEstFrappeeAvecLoutilProcedure.execute(entity);
 		return retval;
 	}
 }
