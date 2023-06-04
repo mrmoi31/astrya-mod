@@ -27,7 +27,9 @@ public class AstryWorldDimension {
 		@SubscribeEvent
 		public static void registerFillerBlocks(FMLCommonSetupEvent event) {
 			Set<Block> replaceableBlocks = new HashSet<>();
-			replaceableBlocks.add(Blocks.SMOOTH_SANDSTONE);
+			replaceableBlocks.add(Blocks.STONE);
+			replaceableBlocks.add(Blocks.GRASS_BLOCK);
+			replaceableBlocks.add(Blocks.STONE);
 			event.enqueueWork(() -> {
 				WorldCarver.CAVE.replaceableBlocks = new ImmutableSet.Builder<Block>().addAll(WorldCarver.CAVE.replaceableBlocks).addAll(replaceableBlocks).build();
 				WorldCarver.CANYON.replaceableBlocks = new ImmutableSet.Builder<Block>().addAll(WorldCarver.CANYON.replaceableBlocks).addAll(replaceableBlocks).build();

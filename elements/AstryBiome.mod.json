@@ -9,6 +9,9 @@
     "undergroundBlock": {
       "value": "Blocks.STONE#0"
     },
+    "underwaterBlock": {
+      "value": ""
+    },
     "airColor": {
       "value": -6710785,
       "falpha": 0.0
@@ -78,7 +81,7 @@
     "mushroomsPerChunk": 4,
     "bigMushroomsChunk": 1,
     "sandPatchesPerChunk": 1,
-    "gravelPatchesPerChunk": 2,
+    "gravelPatchesPerChunk": 1,
     "reedsPerChunk": 8,
     "cactiPerChunk": 0,
     "treesPerChunk": 8,
@@ -107,14 +110,14 @@
     "spawnDesertPyramid": false,
     "spawnSwampHut": true,
     "spawnIgloo": false,
-    "spawnOceanMonument": false,
+    "spawnOceanMonument": true,
     "spawnShipwreck": true,
-    "spawnShipwreckBeached": false,
+    "spawnShipwreckBeached": true,
     "spawnBuriedTreasure": true,
-    "oceanRuinType": "NONE",
+    "oceanRuinType": "COLD",
     "spawnNetherBridge": true,
     "spawnNetherFossil": true,
-    "spawnBastionRemnant": false,
+    "spawnBastionRemnant": true,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NETHER",
     "defaultFeatures": [
@@ -122,6 +125,52 @@
       "Ores",
       "FrozenTopLayer"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Mob1"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityEnderman"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 10,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityDrowned"
+        },
+        "minGroup": 4,
+        "maxGroup": 6,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityShulker"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 10,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityWitherSkeleton"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 15,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

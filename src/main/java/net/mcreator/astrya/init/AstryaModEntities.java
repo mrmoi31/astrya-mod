@@ -25,9 +25,7 @@ import net.mcreator.astrya.AstryaMod;
 public class AstryaModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, AstryaMod.MODID);
 	public static final RegistryObject<EntityType<MinimobEntity>> MINIMOB = register("minimob",
-			EntityType.Builder.<MinimobEntity>of(MinimobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MinimobEntity::new)
-
-					.sized(1f, 1f));
+			EntityType.Builder.<MinimobEntity>of(MinimobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MinimobEntity::new).fireImmune().sized(1f, 1f));
 	public static final RegistryObject<EntityType<Mob1Entity>> BLUE_ZOMBIE = register("blue_zombie",
 			EntityType.Builder.<Mob1Entity>of(Mob1Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Mob1Entity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<ThunderBowEntity>> THUNDER_BOW = register("projectile_thunder_bow",

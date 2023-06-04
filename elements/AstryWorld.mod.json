@@ -4,21 +4,27 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "end_barrens"
+        "value": "CUSTOM:AstryBiome"
       },
       {
-        "value": "end_highlands"
+        "value": "basalt_deltas"
       },
       {
-        "value": "end_midlands"
+        "value": "dripstone_caves"
       },
       {
-        "value": "small_end_islands"
+        "value": "lush_caves"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "river"
       }
     ],
     "worldGenType": "Nether like gen",
     "mainFillerBlock": {
-      "value": "Blocks.SMOOTH_SANDSTONE"
+      "value": "Blocks.STONE#0"
     },
     "fluidBlock": {
       "value": "Blocks.WATER"
